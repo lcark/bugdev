@@ -1,0 +1,19 @@
+<html>
+    <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
+    <script src="/static/js/common.js"></script>
+<body>
+<form method="POST" action="login.php" id="login">
+    <input type="text" name="user">
+    <br>
+    <input type="password" name="passwd">
+    <select name="type" form="login">
+        <option value="normal">normal</option>
+        <option value="xml">xml</option>
+        <option value="json">json</option>
+      </select>
+    <button type="submit" onclick="login()">
+        ok
+    </button>
+</form>
+</body>
+</html>

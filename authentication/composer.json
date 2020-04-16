@@ -1,0 +1,15 @@
+{
+    "name": "lcark/authentication",
+    "description": "via php to authentication",
+    "type": "project",
+    "authors": [
+        {
+            "name": "lcark",
+            "email": "leejhbbs@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^2.0",
+        "twig/twig": "^3.0"
+    }
+}
